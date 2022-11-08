@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #653fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+#overlay-won{
+    position: absolute;
+    font-size:70px;
+    text-align: center;
+    margin:auto;
+    display: none;
+    /* margin-top: 100px; */
+    padding:200px;
+    color:white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 128, 63, 0.6);
+    font-weight: bold;
+    z-index: 1;
+    
+}
+#overlay-lost{
+    position: absolute;
+    font-size:70px;
+    text-align: center;
+    margin:auto;
+    display: none;
+    /* margin-top: 100px; */
+    padding:200px;
+    color:white;
+    font-weight: bold;
+    top: 0;
+    background-color: rgba(172, 52, 43, 0.6);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+#overlay-lost button{
+    background-color: #653fff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+    transition: 0.5s;
+}
+
+#overlay-lost button:hover{
+    background-color: #4e24f7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+
+}
+#overlay-won button{
+    background-color: #653fff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+
+
+    transition: 0.5s;
+}
+
+#overlay-won button:hover{
+    background-color: #4e24f7;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* transform: scale(1.1); */
+
+}
+#user-image{
+    height:60px;
+    width:55px;
+    margin-right: 10px;
+    border-radius:5px;
+}
+
+#heading{
+    margin-top:-10px;
+    color: #fff;
+    font-size: 3.5rem;
+    /* margin-bottom: 1rem; */
+    /* border:2px solid red; */
+}
+
+#player-points{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+    /* border:2px solid red; */
+}
+
+
+#player-name{
+    /* margin-top:-10px; */
+}
+
+#draw-card{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #653fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#draw-card:hover{
+
+    background-color: #653fff;
+    color: #fff;
+}
+
+#points {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    /* border:2px solid red; */
+    
+
+}
+#user-details{
+    position:fixed;
+    top:0;
+    left:30px;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 20px 20px;
+    /* border:2px solid rgb(2, 58, 143); */
+    box-shadow: 0 0 100px 0 rgb(43, 17, 212)
+}
+#card-container{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* width: 100%; */
+    /* max-width: 400px; */
+    /* background-color: #fff; */
+    /* padding: 30px; */
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+    /* border:2px solid red; */
+}
+
+#card-container img{
+    width:200px;
+    height: 300px;
+    margin-right:30px;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    cursor:Pointer;
+    /* border:2px solid red; */
+}
+#card-container img:hover{
+    transform: scale(1.05);
+    /* transition: 0.5s; */
+}
