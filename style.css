@@ -197,3 +197,13 @@ body{
     transform: scale(1.05);
     /* transition: 0.5s; */
 }
+
+#copyright{
+    position: absolute;
+    bottom:30px;
+    right:30px;
+    font-size: 20px;
+    color:rgb(91, 124, 255);
+    text-align: center;
+    /* border:green 2px solid; */
+}
